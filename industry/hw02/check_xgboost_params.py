@@ -11,7 +11,7 @@ if __name__ == '__main__':
         if filename.endswith('.json'):
             name = '_'.join(filename.split()[0].split('_')[-1:]).strip()
             score = checker.check('xgboost_params/' + filename)
-            print name, score
+            print(name, score)
             if score is not None:
                 results[name] = score
             else:

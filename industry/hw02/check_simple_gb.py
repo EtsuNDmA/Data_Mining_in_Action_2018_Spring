@@ -11,7 +11,7 @@ if __name__ == '__main__':
         if filename.endswith('.py'):
             name = '_'.join(filename.split()[0].split('_')[-1:]).strip()
             score = checker.check('simple_gb/' + filename)
-            print name, score
+            print(name, score)
             if score is not None:
                 results[name] = score
             else:

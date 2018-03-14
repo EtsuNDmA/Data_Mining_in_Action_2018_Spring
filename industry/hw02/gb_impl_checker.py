@@ -5,15 +5,10 @@ import numpy as np
 import os
 import sys
 import imp
-import signal
 import pandas
 
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-
-
-def signal_handler(signum, frame):
-    raise Exception("Timed out!")
 
 
 class Checker(object):
@@ -27,9 +22,6 @@ class Checker(object):
 
     def check(self, script_path):
         try:
-            signal.signal(signal.SIGALRM, signal_handler)
-            # Time limit на эту задачу 1 минута
-            signal.alarm(60)
             gb_impl = imp.load_source('gb_impl_{}'.format(self.application), script_path)
             self.application += 1
             # Обучаться будет на 100 итерациях, чтобы одинаковый масштаб был

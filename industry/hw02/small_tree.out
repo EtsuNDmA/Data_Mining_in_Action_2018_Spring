@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<number_project &le; 2.5<br/>samples = 100.0%<br/>value = -0.22>, fillcolor="#e5813955"] ;
+1 [label=<last_evaluation &le; 0.57<br/>samples = 15.9%<br/>value = -0.04>, fillcolor="#e5813983"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<average_montly_hours &le; 161.5<br/>samples = 12.1%<br/>value = 0.04>, fillcolor="#e5813997"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+20 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 20 ;
+33 [label=<last_evaluation &le; 0.92<br/>samples = 3.8%<br/>value = -0.29>, fillcolor="#e5813943"] ;
+1 -> 33 ;
+34 [label="(...)", fillcolor="#C0C0C0"] ;
+33 -> 34 ;
+59 [label="(...)", fillcolor="#C0C0C0"] ;
+33 -> 59 ;
+72 [label=<time_spend_company &le; 3.5<br/>samples = 84.1%<br/>value = -0.25>, fillcolor="#e581394c"] ;
+0 -> 72 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+73 [label=<average_montly_hours &le; 290.0<br/>samples = 50.7%<br/>value = -0.32>, fillcolor="#e581393c"] ;
+72 -> 73 ;
+74 [label="(...)", fillcolor="#C0C0C0"] ;
+73 -> 74 ;
+101 [label="(...)", fillcolor="#C0C0C0"] ;
+73 -> 101 ;
+102 [label=<average_montly_hours &le; 218.5<br/>samples = 33.3%<br/>value = -0.15>, fillcolor="#e5813966"] ;
+72 -> 102 ;
+103 [label="(...)", fillcolor="#C0C0C0"] ;
+102 -> 103 ;
+132 [label="(...)", fillcolor="#C0C0C0"] ;
+102 -> 132 ;
+}
