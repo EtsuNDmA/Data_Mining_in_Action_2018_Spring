@@ -1,6 +1,5 @@
 from sklearn.base import BaseEstimator
 from sklearn.tree import DecisionTreeRegressor
-import numpy as np
 from scipy.special import expit
 
 # Параметрами с которыми вы хотите обучать деревья
