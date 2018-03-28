@@ -1,0 +1,493 @@
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 1,
+        "max_df": 0.6,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.838400767143
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 1,
+        "max_df": 0.4,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.838400767143
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 1,
+        "max_df": 0.9,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.838400767143
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 1,
+        "max_df": 1.0,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.838400767143
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.844430918658
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 3,
+        "max_df": 1.0,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.842170748461
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 3,
+        "max_df": 1.0,
+        "ngram_range": [1, 2, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score None
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 3,
+        "max_df": 1.0,
+        "ngram_range": [1, 2, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score None
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 3,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.841416600648
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.844178778307
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.1
+    }
+}
+Score 0.720789322434
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.9
+    }
+}
+Score 0.844178967744
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.5
+    }
+}
+Score 0.836892660954
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l1"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.95
+    }
+}
+Score 0.844178778307
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 1
+    }
+}
+Score 0.861272227091
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.1
+    }
+}
+Score 0.850967245244
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.8
+    }
+}
+Score 0.861523420258
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.9
+    }
+}
+Score 0.86102065505
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.7
+    }
+}
+Score 0.85951254886
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 3],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.861523609695
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.862277189198
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 4],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.859763931465
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 0.9,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.862277189198
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 0.8,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.862277189198
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 3,
+        "max_df": 0.8,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.860769272445
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 1,
+        "max_df": 0.8,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.861523609695
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 1,
+        "max_df": 1.0,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.861523609695
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 5,
+        "max_df": 1.0,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.854485843958
+==========
+{
+    "count_vectorizer_params": 
+    {
+        "min_df": 2,
+        "max_df": 1.0,
+        "ngram_range": [1, 2],
+        "stop_words": "english"
+    }, 
+    "tfidf_transformer_params": {
+        "norm": "l2"    
+    }, 
+    "logistic_regression_params": {
+        "C": 0.85
+    }
+}
+Score 0.862277189198
+==========
