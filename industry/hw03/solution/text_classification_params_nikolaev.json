@@ -2,14 +2,16 @@
     "count_vectorizer_params": 
     {
         "min_df": 2,
-        "max_df": 1.0,
         "ngram_range": [1, 2],
         "stop_words": "english"
     }, 
     "tfidf_transformer_params": {
-        "norm": "l2"    
+        "norm": "l2",
+        "sublinear_tf": "True",
+        "smooth_idf": 0.0
     }, 
     "logistic_regression_params": {
-        "C": 0.85
+        "penalty": "l2",  
+        "C": 90
     }
 }

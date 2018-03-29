@@ -59,4 +59,4 @@ class Checker(object):
 
 
 if __name__ == '__main__':
-    print(Checker().check(SCRIPT_DIR + '/params.json'))
+    print(Checker().check(SCRIPT_DIR + '/text_classification_params_nikolaev.json'))
