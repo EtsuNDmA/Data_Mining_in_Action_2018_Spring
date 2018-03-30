@@ -1,7 +1,7 @@
 {
     "count_vectorizer_params": 
     {
-        "min_df": 2,
+        "min_df": 1,
         "ngram_range": [1, 2],
         "stop_words": "english"
     }, 
@@ -12,6 +12,6 @@
     }, 
     "logistic_regression_params": {
         "penalty": "l2",  
-        "C": 90
+        "C": 13
     }
 }
